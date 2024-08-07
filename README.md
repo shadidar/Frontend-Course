@@ -1,6 +1,7 @@
 # My Journey
 Welcome to my Journey
 
+![alt text](https://i.ibb.co/dkrwVxc/Screenshot-2024-08-07-205639.png)
 ## About Me
 
 **Name:** Shadi Darwish
