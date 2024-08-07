@@ -3,7 +3,7 @@
 # My Journey
 Welcome to my Journey
 
-![alt text](https://i.ibb.co/XD4TzBk/Screenshot-2024-08-07-205639.png)
+![alt text](https://i.ibb.co/kxY6pr6/IMG-20240807-215129.jpg)
 ![Profile views](https://komarev.com/ghpvc/?username=shadidar&label=Profile%20views&color=60598F&style=flat)
 
 ## About Me
@@ -25,6 +25,7 @@ Welcome to my Journey
 
 **Experience:**
 - Worked at Hadassah Hospital as a help desk and technical support specialist
+- Bodybuilding and Fitness Coach
 - Participated in the Net@ project at Appleseeds Academy, becoming a Cisco networking instructor
 - Developed websites
 - Cybersecurity Specialist
