@@ -10,6 +10,8 @@ Welcome to my Journey
 
 **Name:** Shadi Darwish
 
+<div>:mailbox: How to reach me: <a href="mailto:shadi.f.dar@gmail.com">shadi.f.dar@gmail.com</a></div>
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.instagram.com/shadi.dar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="shadidar" height="30" width="40" /></a>
@@ -17,9 +19,9 @@ Welcome to my Journey
 </p>
 
 **Interests:**
-- Computers and technology
-- Video games 
-- Bodybuilding and Fitness
+- :computer: Computers and technology</br>
+- :video_game: Video Games</br> 
+- :weight_lifting: Bodybuilding and Fitness</br>
 
 **Experience:**
 - Worked at Hadassah Hospital as a help desk and technical support specialist
