@@ -1,3 +1,5 @@
+![Header](https://raw.githubusercontent.com/shadidar/adventure-journal/initial-discovery/github-header-image.png)
+
 # My Journey
 Welcome to my Journey
 
