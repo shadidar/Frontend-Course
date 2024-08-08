@@ -3,7 +3,7 @@
 # My Journey
 Welcome to my Journey
 
-![alt text](https://i.ibb.co/kxY6pr6/IMG-20240807-215129.jpg)
+![alt text](https://i.ibb.co/BqGHsM2/Screenshot-2024-08-07-205639.png)
 ![Profile views](https://komarev.com/ghpvc/?username=shadidar&label=Profile%20views&color=60598F&style=flat)
 
 ## About Me
