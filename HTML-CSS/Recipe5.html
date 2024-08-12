@@ -1,0 +1,57 @@
+<!-- recipe3.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Lava Cake Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Spaghetti Carbonara</h1>
+    </header>
+    <img src="Images-Recipe/carbonara.jpg" width="400" height="300" alt="Spaghetti Carbonara">
+    <section>
+        <h2>Description</h2>
+        <p>Spaghetti Carbonara is a classic Italian pasta dish featuring a rich and creamy sauce made with eggs, cheese, and pancetta. It's quick, comforting, and perfect for a satisfying meal.</p>
+        <h2>Ingredients</h2>
+        <ul>
+            <li>200g spaghetti</li>
+            <li>150g pancetta, diced</li>
+            <li>2 large eggs</li>
+            <li>1 cup grated Parmesan cheese</li>
+            <li>2 cloves garlic, minced</li>
+            <li>2 tablespoons olive oil</li>
+            <li>Salt and black pepper to taste</li>
+            <li>Chopped parsley for garnish</li>
+        </ul>
+        <h2>Steps</h2>
+        <ol>
+            <li>Cook spaghetti according to package instructions until al dente. Drain and set aside.</li>
+            <li>In a large skillet, heat olive oil over medium heat. Add diced pancetta and cook until crispy. Remove from skillet and set aside.</li>
+            <li>In the same skillet, add minced garlic and cook until fragrant.</li>
+            <li>In a bowl, whisk together eggs and Parmesan cheese.</li>
+            <li>Add cooked spaghetti to the skillet and toss to coat with the garlic and pancetta.</li>
+            <li>Remove from heat and quickly stir in the egg and cheese mixture, tossing continuously to create a creamy sauce.</li>
+            <li>Season with salt and black pepper to taste. Garnish with chopped parsley.</li>
+            <li>Serve immediately.</li>
+        </ol>
+    </section>
+
+    </section>
+    <section id="rating">
+        <h2>Rate this Recipe</h2>
+        <form action="submit_rating.php" method="post">
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+            </select>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+</body>
+</html>

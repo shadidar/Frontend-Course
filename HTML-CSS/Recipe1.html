@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Margherita Pizza Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Classic Margherita Pizza</h1>
+    </header>
+    <img src="Images-Recipe/margherita-pizza-feature.jpg" width="400" height="300" alt="Classic Margherita Pizza">
+    <section>
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 pizza dough</li>
+            <li>1 cup tomato sauce</li>
+            <li>200g mozzarella cheese</li>
+            <li>Fresh basil leaves</li>
+            <li>Olive oil</li>
+            <li>Salt and pepper to taste</li>
+        </ul>
+        <h2>Steps:</h2>
+        <ol>
+            <li>Preheat the oven to 220°C (425°F).</li>
+            <li>Roll out the pizza dough on a floured surface.</li>
+            <li>Spread tomato sauce evenly over the dough.</li>
+            <li>Top with mozzarella cheese and fresh basil leaves.</li>
+            <li>Drizzle with olive oil and season with salt and pepper.</li>
+            <li>Bake in the oven for 15-20 minutes or until the crust is golden brown.</li>
+        </ol>
+    </section>
+    <section id="rating">
+        <h2>Rate this Recipe</h2>
+        <form action="submit_rating.php" method="post">
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+            </select>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+</body>
+</html>

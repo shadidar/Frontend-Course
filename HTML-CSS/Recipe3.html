@@ -1,0 +1,55 @@
+<!-- recipe3.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Lava Cake Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Chocolate Lava Cake</h1>
+    </header>
+    <img src="Images-Recipe/Chocolate-Lava-Cakes.webp" width="400" height="300" alt="Chocolate Lava Cake">
+    <section>
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>115g dark chocolate</li>
+            <li>115g unsalted butter</li>
+            <li>150g powdered sugar</li>
+            <li>2 large eggs</li>
+            <li>2 egg yolks</li>
+            <li>1 teaspoon vanilla extract</li>
+            <li>65g all-purpose flour</li>
+            <li>Butter and cocoa powder for greasing ramekins</li>
+        </ul>
+        <h2>Steps:</h2>
+        <ol>
+            <li>Preheat the oven to 220°C (425°F).</li>
+            <li>Melt the chocolate and butter together in a heatproof bowl over simmering water.</li>
+            <li>Stir in powdered sugar until smooth.</li>
+            <li>Whisk in eggs, egg yolks, and vanilla extract until well combined.</li>
+            <li>Fold in flour until just combined.</li>
+            <li>Butter and dust four ramekins with cocoa powder.</li>
+            <li>Divide the batter among the ramekins and place on a baking sheet.</li>
+            <li>Bake for 12-14 minutes, until the edges are set but the centers are still soft.</li>
+            <li>Let cool for 1 minute, then run a knife around the edges and invert onto plates.</li>
+            <li>Serve warm with vanilla ice cream or whipped cream.</li>
+        </ol>
+    </section>
+    <section id="rating">
+        <h2>Rate this Recipe</h2>
+        <form action="submit_rating.php" method="post">
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+            </select>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+</body>
+</html>
