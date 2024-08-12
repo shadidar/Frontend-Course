@@ -1,0 +1,53 @@
+<!-- recipe3.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Lava Cake Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Greek Salad</h1>
+    </header>
+    <img src="Images-Recipe/Greek-Salad.webp" width="400" height="300" alt="Greek Salad">
+    <section>
+        <h2>Description</h2>
+        <p>This refreshing Greek Salad combines crisp cucumbers, juicy tomatoes, tangy olives, and creamy feta cheese, all tossed in a zesty vinaigrette. Perfect as a light meal or a side dish for any occasion.</p>
+        <h2>Ingredients</h2>
+        <ul>
+            <li>2 cups cherry tomatoes, halved</li>
+            <li>1 cucumber, sliced</li>
+            <li>1/2 red onion, thinly sliced</li>
+            <li>1/2 cup Kalamata olives</li>
+            <li>100g feta cheese, crumbled</li>
+            <li>2 tablespoons extra-virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1 teaspoon dried oregano</li>
+            <li>Salt and black pepper to taste</li>
+        </ul>
+        <h2>Steps</h2>
+        <ol>
+            <li>In a large bowl, combine cherry tomatoes, cucumber, red onion, and olives.</li>
+            <li>Add crumbled feta cheese on top.</li>
+            <li>In a small bowl, whisk together olive oil, red wine vinegar, oregano, salt, and pepper.</li>
+            <li>Pour the dressing over the salad and toss gently to combine.</li>
+            <li>Serve immediately or refrigerate for up to an hour before serving.</li>
+        </ol>
+    </section>
+    <section id="rating">
+        <h2>Rate this Recipe</h2>
+        <form action="submit_rating.php" method="post">
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+            </select>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+</body>
+</html>

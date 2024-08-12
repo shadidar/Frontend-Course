@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Alfredo Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Chicken Alfredo</h1>
+    </header>
+    <img src="Images-Recipe/Chicken-Alfredo.webp" width="400" height="300" alt="Chicken Alfredo">
+    <section>
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>500g chicken breast, sliced into strips</li>
+            <li>2 tablespoons olive oil</li>
+            <li>3 cloves garlic, minced</li>
+            <li>1 cup heavy cream</li>
+            <li>1 cup grated Parmesan cheese</li>
+            <li>1/2 cup chicken broth</li>
+            <li>8 oz fettuccine pasta</li>
+            <li>1 teaspoon dried basil</li>
+            <li>1/2 teaspoon dried oregano</li>
+            <li>Salt and black pepper to taste</li>
+            <li>Chopped parsley for garnish</li>
+        </ul>
+        <h2>Steps:</h2>
+        <ol>
+            <li>Cook fettuccine pasta according to package instructions. Drain and set aside.</li>
+            <li>Heat olive oil in a large skillet over medium heat. Add chicken strips and cook until browned and cooked through. Remove from skillet and set aside.</li>
+            <li>In the same skillet, add garlic and cook until fragrant, about 1 minute.</li>
+            <li>Pour in chicken broth and heavy cream. Bring to a simmer and cook for 5 minutes until the sauce starts to thicken.</li>
+            <li>Stir in Parmesan cheese, dried basil, and dried oregano. Cook until the cheese is melted and the sauce is smooth.</li>
+            <li>Add cooked chicken and fettuccine pasta to the skillet. Toss to coat the pasta and chicken with the sauce. Season with salt and black pepper to taste.</li>
+            <li>Serve hot, garnished with chopped parsley.</li>
+        </ol>
+    </section>
+    <section id="rating">
+        <h2>Rate this Recipe</h2>
+        <form action="submit_rating.php" method="post">
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+            </select>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+</body>
+</html>
