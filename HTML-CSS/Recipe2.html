@@ -37,18 +37,15 @@
         </ol>
     </section>
     <section id="rating">
-        <h2>Rate this Recipe</h2>
-        <form action="submit_rating.php" method="post">
-            <label for="rating">Rating:</label>
-            <select id="rating" name="rating">
-                <option value="1">1 Star</option>
-                <option value="2">2 Stars</option>
-                <option value="3">3 Stars</option>
-                <option value="4">4 Stars</option>
-                <option value="5">5 Stars</option>
-            </select>
-            <button type="submit">Submit Rating</button>
-        </form>
+        <h2>Rate This Recipe</h2>
+        <div class="star-rating">
+            <span class="star" data-value="1">☆</span>
+            <span class="star" data-value="2">☆</span>
+            <span class="star" data-value="3">☆</span>
+            <span class="star" data-value="4">☆</span>
+            <span class="star" data-value="5">☆</span>
+        </div>
+        <p id="rating-result"></p>
     </section>
 </body>
 </html>
