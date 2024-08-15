@@ -1,0 +1,35 @@
+.card {
+    border: 1px solid #ccc;
+    width: 350px;
+    box-shadow: 1px 1px 20px black;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-locations {
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    
+}
+.card-content {
+    padding: 16px;
+    background-color: #ceb78e;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+}
+
+.card-locations a {
+    color: #947a4e
+}
