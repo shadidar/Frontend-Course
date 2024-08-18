@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.logo h1 {
+    color: #22c55e;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.5rem;
+    gap: 50px;
+    margin-left: 30px;
+    
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav ul li a:hover{
+    color: #39DB4A;
+}
+
+.btn-search {
+    margin-right: 10px;  
+    margin-left: 500px;  
+}
+
+.btn-cart {
+    margin-right: 10px; 
+    margin-left: 10px;   
+}
+
+.contact-btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #39db4a;
+    border: 0px;
+    border-radius: 50px;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    margin-left: 10px;  
+}
+
+.girl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #fff;
+}
+
+.girl-text {
+    max-width: 50%;
+    margin-bottom: 50px;
+}
+
+.girl-text2 {
+    max-width: 50%;
+}
+
+.girl-text2 p {
+    font-size: 25px;
+    
+}
+
+.girl-text h2 {
+    font-size: 42px;
+    color:black;
+    line-height: 1.2;
+    margin-bottom: 25px;
+
+}
+
+.girl-text h2 span {
+    color: #22c55e;
+}
+
+.girl-text p {
+    font-size: 25px;
+    margin: 20px 0;
+    margin-bottom: 100px;
+}
+
+.girl-buttons .btn {
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+.girl-buttons span {
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-top: 100px;
+    width: 150px;
+    height:150px;
+}
+
+.girl-buttons img {
+    width: 50px;
+    height: 50px;
+    margin-left: -20px;
+}
+
+.btn-primary {
+    background-color: #22c55e;
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 100px;
+    border-radius: 40px;
+    width: 229px;
+    height: 80px;
+    top: 728px;
+    left: 153px;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: black;
+    border: none;
+    margin-right: -20px;
+}
+
+.button-secondary span {
+    margin-left: 20px;
+}
+
+.girl-image {
+    position: relative;
+}
+
+.girl-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.food-tags {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tag.spicy {
+    background-color: #22c55e;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.food-pricing {
+    display: flex;
+    gap: 10px;
+}
+
+.food-item1 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.food-item1 p {
+    margin: 5px 0;
+}
+
+.food-item2 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 500px;
+    display: flex;
+    align-items: center;
+
+}
+
+.food-item2 p {
+    margin: 5px 0;
+}
+
+.rating {
+    font-size: 14px;
+ 
+  
+}
+
+.fa-star {
+    color: #ccc;
+    border: 1px solid white#ddd;
+
+}
+
+.checked {
+    color: gold; 
+}
+.popular-categories {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.popular-categories h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 16px;
+    color: #333;
+}
+
+.spec-dish-mini{
+font-weight: 209px;
+font-size: 20px;
+line-height: 24px;
+width: 209px;
+height:24px;
+top: 1940px;
+left: 154px;
+justify-content: left;
+text-align: left;
+color: #FF6868;
+}
+
+.cust-fav{
+    font-weight: 209px;
+    font-size: 15px;
+    line-height: 24px;
+    justify-content: center;
+    text-align: center;
+    color: #FF6868;
+    }
+
+
+
+.spec-dish-header {
+font-weight: 700;
+font-size: 40px;
+line-height: 78.91px;
+width: 580px;
+height:158px;
+top: 2004px;
+left: 154px;
+text-align: left;
+
+}
+
+.special-dishes {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.dishes-carousel {
+    display: flex;
+    padding: 20px 0;
+
+}
+
+.dish {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.dish img {
+    width: 276px;
+    height: 278px;
+    top: 2260px;
+    left:1209px;
+
+}
+
+.dish-name {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.dish-name h5 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 10px
+}
+.dish-name h6 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #555555;
+}
+
+
+.testimonials {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonial-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.testimonial-card img {
+    max-width: 300px;
+    height: 400px;
+}
+
+
+.testimonial-info h2 {
+    font-size: 33px;
+    color: #333;
+    text-align: left;
+
+}
+
+.testimonial-info h5 {
+    font-size: 15px;
+    color: #FF6868;
+    text-align: left;
+
+}
+.testimonial-info p {
+    font-size: 16px;
+    color: #666;
+        text-align: left;
+
+}

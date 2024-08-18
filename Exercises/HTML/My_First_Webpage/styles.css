@@ -1,15 +1,17 @@
 body {
-    font-family: default;
-    background-color: white;
+    font-family: "Audiowide", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('/CSS/My_First_Webpage_Refactored/Images/painted-grey-background-with-metal-texture.jpg');
+    background-size: cover; 
+    font-size: 20px;
+    color:rgb(255, 255, 255)
     
 }
 
 .container {
     text-align: center;
-    background-color: white;
 }
 
 .profile-img {
@@ -41,4 +43,32 @@ body {
 
 .contact-btn:hover {
     background-color: grey;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.card {
+    
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 1px 4px 8px black;
+    width: 350px;
+    
+}
+
+.card2 {
+    
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 1px 4px 8px black;
+    width: 350px;
+    
 }

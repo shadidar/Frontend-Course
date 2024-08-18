@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    margin: 0;
+    background-color: white;
+}
+
+.greeting-card {
+    background-color: white;
+    border: 2px solid gray;
+    box-shadow: 0 4px 8px black;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
