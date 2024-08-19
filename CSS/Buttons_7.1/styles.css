@@ -1,0 +1,100 @@
+body {
+    background-color: #2C3E50;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 50px;
+    border: none;
+}
+
+.flat-register {
+    background-color: #3498DB;
+    color: white;
+}
+
+.flat-register:hover {
+    background-color: #2980B9; 
+}
+
+
+.flat-submit {
+    background-color: #F1C40F;
+    color: white;
+}
+
+.flat-submit:hover {
+    background-color: #D4AC0D; 
+}
+
+
+.round-register {
+    background-color: #27AE60;
+    color: white;
+    border-radius: 50px;
+}
+
+.round-register:hover {
+    background-color: #229954; 
+}
+
+.round-submit {
+    background-color: #e03c65;
+    color: white;
+    border-radius: 50px;
+}
+
+.round-submit:hover {
+    background-color: #a32f4c;
+}
+
+
+.flat-ghost-register {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #E74C3C;
+}
+
+.flat-ghost-register:hover {
+    background-color: #E74C3C;
+}
+
+
+.flat-ghost-submit {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #8E44AD;
+}
+
+.flat-ghost-submit:hover {
+    background-color: #8E44AD;
+}
+
+
+.round-ghost-register {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #F39C12;
+    border-radius: 50px;
+}
+
+.round-ghost-register:hover {
+    background-color: #F39C12;
+}
+
+
+.round-ghost-submit {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #1ABC9C;
+    border-radius: 50px;
+}
+
+.round-ghost-submit:hover {
+    background-color: #1ABC9C;
+}

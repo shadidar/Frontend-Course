@@ -316,6 +316,7 @@ text-align: left;
 .dishes-carousel {
     display: flex;
     padding: 20px 0;
+    margin-left: 500px;
 
 }
 
