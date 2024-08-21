@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: #F7F7D6; 
+    height: 100vh
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 70%;
+    justify-content: space-around;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: black;
+
+}
+
+#box1 {
+    background-color: green;
+}
+
+#box2 {
+    background-color: blue;
+}
+
+#box3 {
+    background-color: red;
+}
