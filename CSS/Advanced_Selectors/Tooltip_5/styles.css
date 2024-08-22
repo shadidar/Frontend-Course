@@ -1,0 +1,28 @@
+.tooltip {
+    position: relative;
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .tooltip:before {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
+    background-color: yellow;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 12px;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .tooltip:hover:before {
+    opacity: 1;
+  }
+  
