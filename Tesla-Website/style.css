@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  color:white;
 }
 
 
@@ -22,6 +23,7 @@
   padding-left: 20px;
   height: 56px;
   color: white;
+  text-decoration: none;
 }
 
 .nav-container ul {
