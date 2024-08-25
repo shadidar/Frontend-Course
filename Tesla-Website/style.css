@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+.nav-container {
+  position: Absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 20px;
+  height: 56px;
+  color: white;
+}
+
+.nav-container ul {
+  display: flex;
+  list-style: none;
+  font-size: 13px;
+  font-weight: 600;
+
+}
+
+.nav-container ul li {
+  cursor: pointer;
+  padding: 3px 10px;
+  border-radius: 5px;
+
+}
+
+.nav-container ul li a {
+  cursor: pointer;
+  padding: 3px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.nav-container ul li:hover  {
+  background-color: rgba(0, 0, 0, 0.135);
+}
+
+.nav-container .icons img:hover {
+  background-color: rgba(0, 0, 0, 0.135);
+}
+
+.nav-container .logo {
+  width: 120px;
+  height: 16x;
+  margin-left: 30px;
+}
+
+.nav-container .icons {
+  display: flex;
+  font-size: 25px;
+  gap: 10px;
+}
+
+
+.models-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  flex-direction: column;
+}
+
+.models-list li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.models-list li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.models-info h1 {
+  font-size: 55px;
+  font-weight: 600 ;
+}
+
+.models-info h2 {
+  font-size: 25px;
+  font-weight: 600 ;
+}
+
+sup {
+  vertical-align: super;
+  font-size:xx-small;
+}
+
+.models-info h3 {
+  font-size: 18px;
+  font-weight: 500 ;
+}
+
+.models-info h4 {
+  font-size: 18px;
+  font-weight: 500 ;
+}
+
+.model-footer .buttons {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.model-footer .buttons button {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 90px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.model-footer .buttons button:first-child {
+  background-color: #3e6ae1;
+  color: white;
+ 
+}
+
+
+.model-footer .buttons button:last-child {
+  background-color: white;
+  color: #393c41;
+}
+
